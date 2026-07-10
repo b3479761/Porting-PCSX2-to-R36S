@@ -74,7 +74,7 @@ if [ ! -f "/roms/ports/caves3ds/Azahar.sqfs" ]; then
     download_file "https://www.dropbox.com/scl/fi/cdamg5ttgt6v2ijwnrrc7/caves3dsvk.zip?rlkey=spu6qi2j0nb4o00awqhqj16mt&st=p9pfo13e&dl=1" "/tmp/Azahar4R36S.zip"
     
     echo "Extracting Azahar components..."
-    $ESUDO unzip -q -o /tmp/Azahar4R36S.zip -d /roms/ports/caves3ds/
+    $ESUDO unzip -q -o /tmp/Azahar4R36S.zip -d /roms/ports/
     $ESUDO rm -f /tmp/Azahar4R36S.zip
 fi
 

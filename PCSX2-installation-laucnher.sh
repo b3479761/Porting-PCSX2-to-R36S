@@ -71,7 +71,7 @@ echo "Checking Azahar application files..."
 mkdir -p /roms/ports/caves3ds
 if [ ! -f "/roms/ports/caves3ds/Azahar.sqfs" ]; then
     echo "Azahar squashfs missing. Downloading zip archive..."
-    download_file "https://www.dropbox.com/scl/fi/sulf70aixl3tdlmg1pw5h/Azahar4R36S.zip?rlkey=ovljjgs3h07flci138k0lxztn&st=sgrpd90p&dl=1" "/tmp/Azahar4R36S.zip"
+    download_file "https://www.dropbox.com/scl/fi/cdamg5ttgt6v2ijwnrrc7/caves3dsvk.zip?rlkey=spu6qi2j0nb4o00awqhqj16mt&st=p9pfo13e&dl=1" "/tmp/Azahar4R36S.zip"
     
     echo "Extracting Azahar components..."
     $ESUDO unzip -q -o /tmp/Azahar4R36S.zip -d /roms/ports/caves3ds/
